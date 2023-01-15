@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/societyManagement/CSS/index.css">
     <title>Society One</title>
 </head>
 
@@ -27,7 +27,7 @@
                         <li><a href="#services" data-after="Service">Services</a></li>
                         <li><a href="#about" data-after="Contact">About Us</a></li>
                         <li><a href="#contact" data-after="About">Contact Us</a></li>
-                        <li><a href="loginPage.php" type="button" class="KT">Login In</a></li>
+                        <li><a href="optionPage.php" type="button" class="KT">Login In</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,11 +43,11 @@
                 <h1>Hello, <span></span></h1>
                 <h1>Society One <span></span></h1>
                 <h1>For You<span></span></h1>
-                <a href="optionPage.php" type="button" class="cta">Sign Up</a>
+                <a href="signUp.php" type="button" class="cta">Sign Up</a>
             </div>
         </div>
     </section>
-    <!-- End Hero Section  -->
+    <!-- End Hero Section -->
 
     <!-- Service Section -->
     <section id="services">
@@ -57,27 +57,27 @@
                 <p>The perfect solution to make living in an apartment complex a pleasant and convenient experience - for
                     the residents, the managing committee members, and the security staff.</p>
             </div>
-            <div class="service-bottom">
+            <div class="service-bottom" id="r2">
                 <div class="service-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+                    <div class="icon"> <img src="/societyManagement/IMG/bill (1).png" /></div>
                 <div class="r"><h2>Society Management</h2> 
                     <p>GST complaint, automated society billing and collections.</p>
                 </div>
                 </div>
                 <div class="service-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+                    <div class="icon"><img src="/societyManagement/IMG/schedule.png" /></div>
                 <div class="r">   <h2>Attendance</h2>
                     <p>Track your Staff's presence with Daily Attendance</p>
                 </div>
                 </div>
                 <div class="service-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+                    <div class="icon"><img src="/societyManagement/IMG/barrier.png" /></div>
                 <div class="r">    <h2>Risk Free Entry</h2>
                     <p>Visitor Authentication & Approval for secured entries to the premises</p>
                 </div>
                 </div>
                 <div class="service-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+                    <div class="icon"><img src="/societyManagement/IMG/customer-service.png" /></div>
                 <div class="r"><h2>Helpdesk</h2>
                     <p>Central tracking of Complaints and Suggestions .</p>
                 </div>
@@ -94,7 +94,7 @@
         <div class="about container">
             <div class="col-left">
                 <div class="about-img">
-                    <img src="about.png" alt="img">
+                    <img src="/societyManagement/IMG/about.png" alt="img">
                 </div>
             </div>
             <div class="col-right">
@@ -113,7 +113,7 @@
             <div>
                 <h1 class="section-title">Contact <span>info</span></h1>
             </div>
-            <div class="contact-items">
+            <div class="contact-items" id="r3">
                 <div class="contact-item">
                     <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
                     <div class="contact-info">
@@ -157,7 +157,7 @@
                     <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
                 </div>
                 <div class="social-item">
-                    <a href="#"><img src="twitter.png"/></a>
+                    <a href="#"><img src="/societyManagement/IMG/twitter.png"/></a>
                 </div>
                 <div class="social-item">
                     <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>

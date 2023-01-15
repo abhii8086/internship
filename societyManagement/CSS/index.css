@@ -633,6 +633,7 @@ p {
 #footer .social-item img {
   filter: grayscale(1);
   transition: 0.3s ease filter;
+  margin: 27px 11px 8px 8px;
 }
 
 #footer .social-item:hover img {
@@ -850,4 +851,10 @@ p {
   text-align: center;
 }
 
+#r2 img {
+  margin: 15px 97px 2px;
+}
 
+#r3 img {
+  margin: -1px -7px 2px;
+}

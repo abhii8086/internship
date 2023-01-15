@@ -49,3 +49,41 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 		}
 	}
 } 
+
+function societyReg(){
+		error_reporting(0);
+		$sname= "localhost";
+		$unmae= "root";
+		$password = "";
+		$db_name = "soceity_db";
+	$conn = mysqli_connect($sname, $unmae, $password, $db_name);
+	if (!$conn) {
+		echo "Connection failed!";
+	}
+	$sname = $_POST['sname'];
+	$srno = $_POST['srno'];
+    $SAddr = $_POST['SAddr'];
+    $pno = $_POST['pno'];
+    $d = $_POST['d'];
+    $urname = $_POST['urname'];
+    $emailAddr = $_POST['emailAddr'];
+    $phno = $_POST['phno'];
+	$cname = $_POST['cname'];
+	$country = $_POST['country'];
+	$position = $_POST['position'];
+
+	$temp ="INSERT INTO `signup` (`id`, `Society_Name`, `Society_Registration_No`, `Society_Address`, `Pincode_No`, `Date`, `Your_name`, `Email_Address`, `Phone_No`, `City`, `Country`, `Your_position`) VALUES ('', '$sname', '$srno', '$SAddr', ' $pno', 'd', ' $urname', ' $emailAddr', ' $phno', '$cname', '$country', '$position')";
+	$result = mysqli_query($conn, $temp);
+	if($result){
+		echo "You have successfully registered";
+		header( "refresh:4; url=index.php" ); 
+		//header("Location://localhost/societyManagement/PHP/index.php");
+	}
+}
+if(isset($_POST['submit']) )
+{
+    societyReg() ;  
+}
+
+?>
+
